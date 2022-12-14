@@ -1,0 +1,33 @@
+
+/* 404 db error page css  */
+.dberrorpage{
+  background-image: url(../images/404error.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 95vh;
+}
+
+/* main contact form css  */
+
+body{
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+.formsec_container{
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-sec{
+  width:400px;
+  background: #f7f7f7;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 20px 50px;
+}
+
+.form-sec>.qryform>.form-group{
+  margin-bottom:20px;
+}
